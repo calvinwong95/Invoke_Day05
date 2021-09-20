@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    scroll-behavior:smooth;
+}
+
+#container {
+
+    width: 300%;
+    height: 100%;
+
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: skyblue;
+    position: fixed;
+    top:0 ;
+    left:0 ;
+}
+
+header ul  {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.section {
+    width: calc(100%/3);
+    height: 100%;
+    padding-top: 60px;
+    float: left;
+
+}
+
+.home-section {
+    background-color: blue;
+    
+}
+
+.about-section {
+    background-color: red;
+
+}
+.contact-section {
+    background-color: purple;
+
+}
